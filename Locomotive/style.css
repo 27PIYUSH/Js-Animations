@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(0, 221, 255); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(75, 146, 233); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page2 #image{
+    height: 100%;
+    width: 40%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+
+#image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale: 1.4;
+}
+
+#box{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to left,rgb(222, 48, 48),rgb(248, 248, 51));
+}
